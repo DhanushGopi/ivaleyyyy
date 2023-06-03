@@ -1,0 +1,41 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+}
+
+.cont {
+  background-color: white;
+  position: absolute;
+  top: 25%;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cont div,
+h1 {
+  padding-bottom: 20px;
+}
+
+#label {
+  padding-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  font-size: 20px;
+  background-color: yellow;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: goldenrod;
+}
